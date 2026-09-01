@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Quorum</title>
+<meta name="description" content="Quorum's privacy policy. Quorum has no server and collects nothing.">
+<style>
+  :root{
+    --bg:#000; --surface:rgba(255,255,255,.055); --hair:rgba(255,255,255,.16);
+    --ink:#F4F6F9; --soft:#B4BAC4; --faint:#80868F; --brand:#B08BEF;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:56px 22px 96px}
+  .mark{
+    font-family:Georgia,"Times New Roman",serif; font-size:19px;
+    letter-spacing:-.2px; color:var(--ink); text-decoration:none; display:inline-block;
+  }
+  .mark span{color:var(--brand)}
+  h1{
+    font-family:Georgia,"Times New Roman",serif; font-weight:400;
+    font-size:34px; line-height:1.2; letter-spacing:-.3px; margin:34px 0 6px;
+  }
+  .date{color:var(--faint);font-size:13.5px;margin:0 0 34px}
+  h2{
+    font-size:12px; letter-spacing:1.1px; font-weight:600; text-transform:uppercase;
+    color:var(--faint); margin:40px 0 12px;
+  }
+  p{color:var(--soft);margin:0 0 16px}
+  strong{color:var(--ink);font-weight:600}
+  a{color:var(--brand)}
+  ul{color:var(--soft);padding-left:22px;margin:0 0 16px}
+  li{margin-bottom:9px}
+  .panel{
+    background:var(--surface); border:1px solid var(--hair); border-radius:14px;
+    padding:20px 22px; margin:0 0 22px;
+  }
+  .panel p:last-child{margin-bottom:0}
+  .lead{color:var(--ink);font-size:17px}
+  hr{border:0;border-top:1px solid var(--hair);margin:44px 0}
+  footer{color:var(--faint);font-size:13.5px}
+  footer a{color:var(--soft)}
+  @media (max-width:520px){ h1{font-size:28px} .wrap{padding:40px 18px 72px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="mark" href="./index.html">Quorum<span>.</span></a>
+
+  <h1>Privacy Policy</h1>
+  <p class="date">Last updated 1 September 2026</p>
+
+  <div class="panel">
+    <p class="lead"><strong>The short version.</strong> Quorum has no server. It collects nothing about you, sends nothing to us, and keeps everything on your phone. There is no account to create and no data for us to lose, sell or hand over, because none of it ever reaches us.</p>
+  </div>
+
+  <p>That is unusual enough to be worth explaining properly, so the rest of this page says exactly what happens to everything you put into the app.</p>
+
+  <h2>What we collect</h2>
+
+  <p><strong>Nothing.</strong> Quorum contains no analytics, no crash reporting, no advertising identifiers, no tracking pixels and no third-party software development kits that gather data. We do not know who you are, whether you opened the app today, or what you asked it. We could not tell you how many people use Quorum beyond what Apple reports about downloads.</p>
+
+  <h2>Where your information lives</h2>
+
+  <p>Everything Quorum stores is stored on your own device:</p>
+
+  <ul>
+    <li><strong>Your API keys</strong> are held in your phone's system keychain, encrypted by iOS. They are not written into the app's files and never leave your phone except to go directly to the provider they belong to.</li>
+    <li><strong>Your conversations, documents, photos and settings</strong> are kept in a single file inside the app's private storage. Nothing else on your phone can read it.</li>
+    <li><strong>Deleting means deleting.</strong> Delete a conversation and it is gone. Delete the app and everything above goes with it. There is no copy anywhere else, and no way for us to restore it, because we never had it.</li>
+  </ul>
+
+  <h2>What leaves your phone, and who receives it</h2>
+
+  <p>This is the part that matters, so it is stated plainly.</p>
+
+  <p>Quorum is a client for AI models you already have access to. When you send a message, the app makes a direct connection from your phone to whichever AI providers you have added a key for, and sends them the conversation so they can reply. <strong>That traffic does not pass through us.</strong> There is no Quorum server in the middle, and there is nothing for us to log.</p>
+
+  <p>What is sent to those providers is the material of the conversation itself: your messages, the replies other models have already given, any documents you have attached to that seat, and any photos you have added. Depending on which keys you have added, the providers may include:</p>
+
+  <ul>
+    <li>Anthropic (Claude)</li>
+    <li>OpenAI (GPT)</li>
+    <li>Google (Gemini)</li>
+    <li>xAI (Grok)</li>
+  </ul>
+
+  <p><strong>Once your conversation reaches one of those companies, their privacy policy and their data-retention rules govern it, not ours.</strong> You are using your own account with them, under whatever terms you agreed to when you created it, and the usage is billed to that account rather than through this app. If you want to know how long they keep your prompts or whether they train on them, their policies are the place to look, and they are worth looking at.</p>
+
+  <p>Quorum makes no other network requests. It does not call home, check for messages, or contact any server we control, because there isn't one.</p>
+
+  <h2>Camera and photo library</h2>
+
+  <p>Quorum asks for camera and photo library access only so you can attach a picture to a question. It opens either one only at the moment you tap to add a photo, and it reads nothing else in your library. A photo you attach is resized on your phone and then sent to the AI providers as part of the conversation, exactly like your text. It is not uploaded anywhere else.</p>
+
+  <h2>Files and documents</h2>
+
+  <p>Documents you import are read on your device and stored in the app's own file. Their text is sent to the AI providers only for the seats you have chosen to attach them to. Quorum reads only the files you pick.</p>
+
+  <h2>Location</h2>
+
+  <p>Quorum does not use your location. You may see a location permission string listed by iOS because a software library the app depends on includes Apple's location framework. Quorum never requests your location and never receives it.</p>
+
+  <h2>Children</h2>
+
+  <p>Quorum is not directed at children. It is a tool for working with AI models through developer accounts, and it displays whatever those models write. We do not knowingly collect information from anyone, of any age, because we do not collect information at all.</p>
+
+  <h2>Changes to this policy</h2>
+
+  <p>If Quorum ever changes in a way that affects any of the above, this page will be updated before that version ships, and the date at the top will change with it. If a future version ever collected anything, it would be said here plainly and it would be optional.</p>
+
+  <h2>Contact</h2>
+
+  <div class="panel">
+    <p>Questions about this policy, or about anything the app does with your information:</p>
+    <p><strong><a href="mailto:leoblueaf@yahoo.com">leoblueaf@yahoo.com</a></strong></p>
+  </div>
+
+  <hr>
+
+  <footer>
+    Quorum is made by David Berry. &nbsp;·&nbsp;
+    <a href="./index.html">Home</a> &nbsp;·&nbsp;
+    <a href="./support.html">Support</a>
+  </footer>
+
+</div>
+</body>
+</html>

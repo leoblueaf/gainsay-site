@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Quorum</title>
+<meta name="description" content="Help with Quorum: getting an API key, what it costs, and how to get in touch.">
+<style>
+  :root{
+    --bg:#000; --surface:rgba(255,255,255,.055); --hair:rgba(255,255,255,.16);
+    --ink:#F4F6F9; --soft:#B4BAC4; --faint:#80868F; --brand:#B08BEF;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:680px;margin:0 auto;padding:56px 22px 96px}
+  .mark{
+    font-family:Georgia,"Times New Roman",serif; font-size:19px;
+    letter-spacing:-.2px; color:var(--ink); text-decoration:none; display:inline-block;
+  }
+  .mark span{color:var(--brand)}
+  h1{
+    font-family:Georgia,"Times New Roman",serif; font-weight:400;
+    font-size:34px; line-height:1.2; letter-spacing:-.3px; margin:34px 0 20px;
+  }
+  h2{
+    font-family:Georgia,"Times New Roman",serif; font-weight:400;
+    font-size:21px; line-height:1.3; margin:38px 0 10px; color:var(--ink);
+  }
+  p{color:var(--soft);margin:0 0 16px}
+  strong{color:var(--ink);font-weight:600}
+  a{color:var(--brand)}
+  ul,ol{color:var(--soft);padding-left:22px;margin:0 0 16px}
+  li{margin-bottom:9px}
+  .panel{
+    background:var(--surface); border:1px solid var(--hair); border-radius:14px;
+    padding:20px 22px; margin:0 0 26px;
+  }
+  .panel p:last-child{margin-bottom:0}
+  .lead{color:var(--ink);font-size:17px}
+  table{width:100%;border-collapse:collapse;margin:0 0 18px;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--hair);color:var(--soft)}
+  th{color:var(--faint);font-size:11.5px;letter-spacing:1px;text-transform:uppercase;font-weight:600}
+  td strong{color:var(--ink)}
+  hr{border:0;border-top:1px solid var(--hair);margin:44px 0}
+  footer{color:var(--faint);font-size:13.5px}
+  footer a{color:var(--soft)}
+  .scroll{overflow-x:auto}
+  @media (max-width:520px){ h1{font-size:28px} .wrap{padding:40px 18px 72px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="mark" href="./index.html">Quorum<span>.</span></a>
+
+  <h1>Support</h1>
+
+  <div class="panel">
+    <p class="lead">Something broken, confusing, or missing? Write to <strong><a href="mailto:leoblueaf@yahoo.com">leoblueaf@yahoo.com</a></strong> and you will get a reply from the person who wrote the app.</p>
+  </div>
+
+  <h2>Quorum needs your own API key</h2>
+
+  <p>This is the one thing to understand before anything else. Quorum does not sell you AI usage. It talks directly from your phone to the AI companies using an account you own, which means you pay them for what you use, at their prices, with no markup from us and no subscription to us.</p>
+
+  <p>You need at least one key. You do not need four. One key gets you the whole app: any seat without its own key is filled by a model you do have, clearly labelled so you always know who is actually speaking.</p>
+
+  <h2>Getting a key</h2>
+
+  <p>Open <strong>Settings → Your keys</strong> in the app and use the links there, which go straight to the right page. Or go directly:</p>
+
+  <div class="scroll">
+  <table>
+    <tr><th>Provider</th><th>Where</th><th>Cost</th></tr>
+    <tr><td><strong>Google Gemini</strong></td><td>aistudio.google.com/apikey</td><td>Free tier, no card needed</td></tr>
+    <tr><td><strong>OpenAI</strong></td><td>platform.openai.com/api-keys</td><td>Prepaid credit</td></tr>
+    <tr><td><strong>Anthropic</strong></td><td>console.anthropic.com/settings/keys</td><td>Prepaid credit</td></tr>
+    <tr><td><strong>xAI Grok</strong></td><td>console.x.ai</td><td>Prepaid credit</td></tr>
+  </table>
+  </div>
+
+  <p><strong>Start with Gemini.</strong> Its free tier does not ask for a card, so you can see whether you like the app before you spend anything at all.</p>
+
+  <p>Paste the key into the app and tap Check and save. Quorum asks the provider whether the key works before it tells you it does, and then names the model it reached.</p>
+
+  <h2>What it costs to run</h2>
+
+  <p>Cents, usually. A six-turn conversation with several models costs roughly one and a half to two and a half cents at current prices. A ten-turn conversation with three models measured at about five and a half cents. A disagreement report costs well under two cents.</p>
+
+  <p>The app shows a running total while it works, and tells you what a document or a photo will cost before it sends one. <strong>Long documents and photos are what make a session expensive</strong>, not the conversation itself. Every provider also lets you set a spending cap on your own account, and it is worth doing on your first day.</p>
+
+  <h2>Common problems</h2>
+
+  <p><strong>"That key was refused."</strong> Usually a stray space or quote mark from copying. Paste it again. If it still fails, check the key has not been deleted or rotated in the provider's console.</p>
+
+  <p><strong>A model says "not found" partway through.</strong> Providers retire model names regularly. Open Settings → Your keys, tap the tune icon next to that provider, and pick a different model from the list. The list is whatever your account can actually reach right now, not a list guessed by the app.</p>
+
+  <p><strong>Gemini stops answering mid-conversation.</strong> The free tier is rate-limited to a small number of requests per minute, and several models talking in turn will hit that. Wait a moment and continue, or add a second key so the load spreads.</p>
+
+  <p><strong>A model says it cannot see a document you attached.</strong> Documents attach to specific seats. Check the document is switched on and pinned to the seat you are asking.</p>
+
+  <p><strong>One model answered and the others did not.</strong> A failed call is shown to you and hidden from the other models on purpose, so an error message never gets read as though a colleague had said it. The reply that failed will say so.</p>
+
+  <h2>Your data</h2>
+
+  <p>Everything stays on your phone, and there is no Quorum account or server. The <a href="./privacy.html">privacy policy</a> explains exactly what leaves your device and who receives it.</p>
+
+  <h2>Requests and bug reports</h2>
+
+  <p>Both welcome, at the address above. Quorum is early, and it is being built by one person who uses it daily. Screenshots help more than descriptions, and telling us what you expected to happen helps most of all.</p>
+
+  <hr>
+
+  <footer>
+    Quorum is made by David Berry. &nbsp;·&nbsp;
+    <a href="./index.html">Home</a> &nbsp;·&nbsp;
+    <a href="./privacy.html">Privacy</a>
+  </footer>
+
+</div>
+</body>
+</html>
