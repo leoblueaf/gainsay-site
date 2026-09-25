@@ -1,8 +1,8 @@
-# Quorum — public site
+# Gainsay — public site
 
 Three static pages served by GitHub Pages. They exist because the App Store
 requires a publicly reachable **privacy policy URL** and **support URL** before
-an app can be listed, and because Quorum had no website.
+an app can be listed, and because Gainsay had no website.
 
 No build step, no dependencies, no external requests. Every page is one file
 with its CSS inline. Nothing here loads a font, a script or an image from
@@ -30,11 +30,11 @@ git init
 git add .
 git commit -m "Public pages: privacy policy, support, landing"
 git branch -M main
-git remote add origin https://github.com/leoblueaf/quorum-site.git
+git remote add origin https://github.com/leoblueaf/gainsay-site.git
 git push -u origin main
 ```
 
-Create the `quorum-site` repo on GitHub first, and make it **public** — GitHub
+Create the `gainsay-site` repo on GitHub first, and make it **public** — GitHub
 Pages will not serve a private repo on a free account.
 
 Then in the repo: **Settings → Pages → Source: Deploy from a branch → Branch:
@@ -51,9 +51,9 @@ only the three pages that are meant to be public.
 ## The URLs you paste into App Store Connect
 
 ```
-Privacy Policy URL:  https://leoblueaf.github.io/quorum-site/privacy.html
-Support URL:         https://leoblueaf.github.io/quorum-site/support.html
-Marketing URL:       https://leoblueaf.github.io/quorum-site/
+Privacy Policy URL:  https://leoblueaf.github.io/gainsay-site/privacy.html
+Support URL:         https://leoblueaf.github.io/gainsay-site/support.html
+Marketing URL:       https://leoblueaf.github.io/gainsay-site/
 ```
 
 Open all three in a browser before you submit. **A privacy policy URL that
